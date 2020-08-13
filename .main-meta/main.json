@@ -1,0 +1,71 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.studio.project.attiny817-realistic-heartbeat-studio-start",
+        "version": "1.0.0",
+        "displayName": "ATTINY817 realistic heartbeat studio start",
+        "projectName": "attiny817-realistic-heartbeat-studio-start",
+        "shortDescription": "",
+        "ide": {
+            "name": "Studio",
+            "semverRange": ""
+        },
+        "compiler": [
+            {
+                "name": "AVR-GCC",
+                "semverRange": ""
+            }
+        ],
+        "dfp": {
+            "name": "",
+            "semverRange": ""
+        },
+        "configurator": {
+            "name": "",
+            "semverRange": ""
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "ATTINY817",
+                "versionRange": "*"
+            }
+        },
+        "author": "",
+        "subcategories": [
+            "",
+            [
+                "Peripherals",
+                ""
+            ],
+            [
+                "Peripherals",
+                ""
+            ]
+        ],
+        "peripherals": [
+            "",
+            ""
+        ],
+        "keywords": [
+            "",
+            ""
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
