@@ -5,26 +5,26 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.attiny817-realistic-heartbeat-studio-start",
         "version": "1.0.0",
-        "displayName": "ATTINY817 realistic heartbeat studio start",
+        "displayName": "Realistic Heartbeat",
         "projectName": "attiny817-realistic-heartbeat-studio-start",
-        "shortDescription": "",
+        "shortDescription": "In this example the duty cycle of the PWM signal is dynamically increased or decreased to change the brightness of the LED in order to mimic a heartbeat.",
         "ide": {
             "name": "Studio",
-            "semverRange": ""
+            "semverRange": ">=7.0.2397"
         },
         "compiler": [
             {
                 "name": "AVR-GCC",
-                "semverRange": ""
+                "semverRange": "^5.4.0"
             }
         ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "ATtiny_DFP",
+            "semverRange": "^1.6.316"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "START",
+            "semverRange": ">=1.7.360"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,25 +32,39 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "ATTINY817",
+                "name": "ATtiny817",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
+            "START",
             [
                 "Peripherals",
-                ""
+                "PWM"
             ],
             [
                 "Peripherals",
-                ""
+                "TCB"
+            ],
+            [
+                "Peripherals",
+                "TCD"
+            ],
+            [
+                "Peripherals",
+                "CCL"
+            ],
+            [
+                "Development Kit",
+                "ATtiny817 Xplained Pro"
             ]
         ],
         "peripherals": [
-            "",
-            ""
+            "PWM",
+            "TCB",
+            "TCD",
+            "CCL"
         ],
         "keywords": [
             "",
