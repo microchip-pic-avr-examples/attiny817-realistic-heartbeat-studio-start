@@ -41,10 +41,6 @@
             "START",
             [
                 "Peripherals",
-                "PWM"
-            ],
-            [
-                "Peripherals",
                 "TCB"
             ],
             [
@@ -61,14 +57,11 @@
             ]
         ],
         "peripherals": [
-            "PWM",
             "TCB",
             "TCD",
             "CCL"
         ],
         "keywords": [
-            "",
-            ""
         ],
         "additionalData": {
             "longDescription": {

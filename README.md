@@ -46,4 +46,4 @@ Included in the example is a function for changing the BPM and pulse length duri
 
 
 ## Conclusion
-This example has now shown how to use a PWM signal to increase and decrease the brightness of the LED in order to mimic a heartbeat.
+The example has now shown how to use core independent peripherals to create a pulsating PWM signal that increase and decrease the brightness of an LED in order to mimic a heartbeat pulse, 100% free of the CPU after the initial set-up.
