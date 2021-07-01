@@ -4,17 +4,17 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.studio.project.attiny817-realistic-heartbeat-studio-start",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "Realistic Heartbeat",
         "projectName": "attiny817-realistic-heartbeat-studio-start",
         "shortDescription": "In this example the duty cycle of the PWM signal is dynamically increased or decreased to change the brightness of the LED in order to mimic a heartbeat.",
         "ide": {
-            "name": "Studio",
+            "name": "STUDIO",
             "semverRange": ">=7.0.2397"
         },
         "compiler": [
             {
-                "name": "AVR-GCC",
+                "name": "AVR GCC",
                 "semverRange": "^5.4.0"
             }
         ],
@@ -38,7 +38,6 @@
         },
         "author": "Microchip",
         "subcategories": [
-            "START",
             [
                 "Peripherals",
                 "TCB"
@@ -61,8 +60,7 @@
             "TCD",
             "CCL"
         ],
-        "keywords": [
-        ],
+        "keywords": [],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
